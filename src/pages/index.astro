@@ -9,10 +9,19 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
 const last_posts = posts.slice(0, 3);
 ---
 
-<BaseLayout sideBarActiveItemID="home">
+<BaseLayout sideBarActiveItemID="home"> <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVCXT7GZ');</script>
+<!-- End Google Tag Manager -->
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Toluwalope Adelusi</div>
+    <div class="text-5xl font-bold">I'm Toluwalope Adelusi</div> <meta name="google-site-verification" content="LA3xymm22cgPNd1Uf_mBWsgx5CxiHSe7zQxWPvLLWIQ" /> <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVCXT7GZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div class="text-3xl py-3 font-bold">Digital marketer,social media manager and Entrepreneur</div>
     <div class="py-2">
       <text class="text-lg">
